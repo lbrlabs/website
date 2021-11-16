@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://lbrlabs.com"
+baseURL = "https://lbrlabs.com/"
 languageCode = "en"
 title = "LBr Labs | Cutting Edge Cloud Consulting"
 theme = "frontpage"
