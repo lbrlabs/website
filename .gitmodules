@@ -1,0 +1,6 @@
+[submodule "themes/hugo-universal-theme"]
+	path = themes/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme
+[submodule "themes/frontpage"]
+	path = themes/frontpage
+	url = https://github.com/cowboysmall-tools/hugo-business-frontpage-theme.git

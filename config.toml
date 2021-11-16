@@ -1,0 +1,79 @@
+# Page settings
+
+baseURL = "http://lbrlabs.com"
+languageCode = "en"
+title = "LBr Labs | Cutting Edge Cloud Consulting"
+theme = "frontpage"
+googleAnalytics = "UA-212995069-1"
+
+[params]
+    author = "CowboySmall"
+    description = "LBr Labs is a cloud consultancy with an emphasis on cutting edge and new technologies"
+    [params.navbar]
+        name = "Start Bootstrap"
+        url = "#"
+        [[params.navbar.nav]]
+        current = true
+        name = "Home"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "Contact"
+        url = "#"
+    [params.header]
+        name = "Cutting Edge Cloud Consultancy"
+        tagline = ""
+    [params.summary]
+        url = "/contact"
+        [params.summary.description]
+        [[params.summary.description.items]]
+        description = "Modern infrastructure is complex."
+        [[params.summary.description.items]]
+        description = "Get advice, training and support to help you scale your organization from 1 to thousands of people."
+
+
+        [params.summary.contact]
+        name = "LBr Labs LLC"
+        phone = "(347) 460-2879"
+        email = "contact@lbrlabs.com"
+    [params.projects]
+        [[params.projects.sections]]
+
+        [[params.projects.sections.rows]]
+        title = "Infrastructure as Code"
+        [[params.projects.sections.rows.items]]
+        title = "Pulumi"
+        description = "Training, expertise and professional services for simple to advanced Pulumi implementations."
+        url = "services"
+        # image = "static/images/pulumi.png"
+        [[params.projects.sections.rows.items]]
+        title = "Terraform"
+        description = "Get off the ground or refactor your Terraform implementation with advanced infrastructure as code expertise."
+        url = "#"
+        # image = "image.png"
+
+        [[params.projects.sections.rows]]
+        title = "Containers"
+        [[params.projects.sections.rows.items]]
+        title = "Kubernetes"
+        description = "Training and advice about building, scaling and maintaining Kubernetes infrastructure"
+        url = "#"
+        # image = "image.png"
+
+        [[params.projects.sections.rows]]
+        title = "Cloud"
+        [[params.projects.sections.rows.items]]
+        title = "AWS"
+        description = "Implement, scale and secure your AWS infrastructure"
+        url = "#"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "Azure"
+        description = "Understand, migrate and improve your Azure based infrastructure"
+        url = "#"
+        # image = "image.png"
+
+    [params.footer]
+        copyright = "LBr Labs LLC"
+
+
+
